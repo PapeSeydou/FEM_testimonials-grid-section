@@ -1,0 +1,34 @@
+@use 'typography' as type;
+@use 'base';
+
+.card{
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 40px 60px 50px -47px hsla(217, 19, 35, 25%);
+}
+
+.author-block{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    .author-details{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        @include type.testimonial-author;
+        .author-sub{
+            @include type.testimonial-author-level;
+        }
+    }
+}
+
+.card-title {
+    @include type.testimonial-title;
+}
+
+.card-content{
+    @include type.testimonial-content;
+}

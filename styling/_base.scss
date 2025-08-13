@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+$base-typeface: 'Barlow Semi Condensed', arial;
+
+/* Colors */
+$black: #121212;
+$dark-blue: #19202D;
+$grey-100: #E7EAEE;
+$grey-200: #CFCFCF;
+$grey-400: #676D7E;
+$grey-500: #48556A;
+
+$purple-50: #EDE4FF;
+$purple-300: #A775F1;
+$purple-500: #733FC8;
+
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 13px;
+}
+
+body{
+    font-family: $base-typeface;
+    background-color: #F6F5F6;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+

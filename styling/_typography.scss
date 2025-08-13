@@ -1,0 +1,25 @@
+@use 'base';
+
+@mixin testimonial-title{
+    font-size: 1.538rem;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+@mixin testimonial-content{
+    font-size: 1rem;
+    line-height: 140%;
+    font-weight: 500;
+}
+
+@mixin testimonial-author{
+    font-size: 1rem;
+    line-height: 110%;
+    font-weight: 500;
+}
+
+@mixin testimonial-author-level{
+    font-size: 0.846rem;
+    line-height: 110%;
+    font-weight: 500;
+}
